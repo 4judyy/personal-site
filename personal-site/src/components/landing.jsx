@@ -1,10 +1,9 @@
+import './styling/landing.css'
 import React, { Component } from 'react';
 
 
 class Landing extends Component {
-    state = {
-        keywords: ["my logic", "my creativity", "my love", "myself"]
-    }
+
     render() {
         return (
             <div className="body">
@@ -18,7 +17,7 @@ class Landing extends Component {
                 </div>
 
                 <div className='description'>
-                    {/* <p>To me, coding expresses {this.state.keywords}</p> */}
+                    <p>To me, coding expresses my logic, my creativity, myself.</p>
                 </div>
                 <div className='circles'>
                     <div className='circle1'></div>
