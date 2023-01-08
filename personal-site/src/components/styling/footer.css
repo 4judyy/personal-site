@@ -1,8 +1,10 @@
 .icons {
     border-radius: 0;
+    margin: 10px;
 }
 
 footer {
     display: flex;
-    height: 190px;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
