@@ -8,15 +8,15 @@ function Header() {
             <nav className='nav'>
                 <ul className='nav-items'>
                     <li>
-                        <Link to="/about" style={{ textDecoration: 'none' }}>About</Link>
+                        <Link to="/abt" style={{ textDecoration: 'none' }}>About</Link>
                     </li>
 
                     <li>
-                        <Link to="/#" style={{ textDecoration: 'none' }}> My Projects</Link>
+                        <Link to="/" style={{ textDecoration: 'none' }}> My Projects</Link>
                     </li>
 
                     <li>
-                        <a href='Judy_Zhou_CV.pdf' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none' }}> Resume </a>
+                        <Link to='Judy_Zhou_CV.pdf' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none' }}> Resume </Link>
                     </li>
                 </ul>
             </nav>
