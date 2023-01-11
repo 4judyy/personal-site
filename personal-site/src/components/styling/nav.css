@@ -5,6 +5,8 @@
     position: fixed;
     right: 5%;
     z-index: 1000;
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
 }
 
 .nav-items {
@@ -17,5 +19,5 @@
 }
 
 .nav-items>li {
-    padding: 20px;
+    padding: 0px 20px 0px 20px;
 }

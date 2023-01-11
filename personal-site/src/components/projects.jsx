@@ -1,16 +1,33 @@
-import React, { Component } from 'react';
+import Card from './common/card';
+import './styling/projects.css'
+import { PROJECTS } from './common/projectdata';
 
-class Projects extends Component {
-    state = {}
-    render() {
+
+export default function Projects() {
+
+    const cards = PROJECTS.map(project => {
         return (
-            <div>
-                <div>
-                    hi
-                </div>
-            </div>
-        );
-    }
-}
+            <Card
+                img={project.coverImg}
+                name={project.name}
+                description={project.description}
+                stack={project.stack}
+                role={project.role}
+            />
+        )
+    })
 
-export default Projects;
+    return (
+        <div>
+            <div className="head" style={
+                { fontWeight: "bold" }
+            }>Projects</div>
+
+            <div className='container'>
+                <div>
+                    {cards}
+                </div>
+            </div >
+        </div>
+    );
+}
