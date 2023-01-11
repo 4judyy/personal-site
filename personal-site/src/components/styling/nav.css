@@ -18,6 +18,14 @@
     text-decoration: none;
 }
 
+.nav-items>li:hover {
+    font-style: italic;
+}
+
 .nav-items>li {
     padding: 0px 20px 0px 20px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
