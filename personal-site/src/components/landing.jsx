@@ -1,12 +1,14 @@
 import './styling/landing.css'
 import React, { Component } from 'react';
 import Projects from './projects';
+import Header from './nav';
 
 class Landing extends Component {
 
     render() {
         return (
             <div >
+                <Header />
                 <div className="container">
                     <div className='text'>
                         <div className='heading'>
@@ -25,7 +27,9 @@ class Landing extends Component {
                         <div className='circle2'></div>
                     </div>
                 </div>
-                <Projects />
+                <div id="projects">
+                    <Projects />
+                </div>
             </div>
         );
     }

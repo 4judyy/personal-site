@@ -12,7 +12,7 @@ function Header() {
                     </li>
 
                     <li>
-                        <Link to="/projects" style={{ textDecoration: 'none' }}>Projects</Link>
+                        <a href="#projects" style={{ textDecoration: 'none' }}>Projects</a>
                     </li>
 
                     <li>
