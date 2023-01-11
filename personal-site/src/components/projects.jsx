@@ -13,21 +13,20 @@ export default function Projects() {
                 description={project.description}
                 stack={project.stack}
                 role={project.role}
+                className='card'
             />
         )
     })
 
     return (
-        <div>
-            <div className="head" style={
+        <div className='body'>
+            {/* <div className="head" style={
                 { fontWeight: "bold" }
-            }>Projects</div>
+            }>Projects</div> */}
 
-            <div className='container'>
-                <div>
-                    {cards}
-                </div>
-            </div >
+            <div className='cards'>
+                {cards}
+            </div>
         </div>
     );
 }

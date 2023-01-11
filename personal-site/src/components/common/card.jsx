@@ -5,7 +5,7 @@ export default function Card(props) {
         < div className="card" >
             <img className="card-img" alt="mockup" src={props.img}></img>
             <div className="content">
-                <div className="title"> {props.name}</div>
+                <div className="card-title"> {props.name}</div>
                 <div className="subtext">{props.description}</div>
 
 
