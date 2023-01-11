@@ -6,21 +6,28 @@ function Header() {
     return (
         <header>
             <nav className='nav'>
-                <ul className='nav-items'>
-                    <li>
-                        <Link to="/abt" style={{ textDecoration: 'none' }}>About</Link>
-                    </li>
+                <div className="icon-container">
+                    <img src="favicon.png" style={{ width: '70px' }}></img>
+                </div>
+                <div className='nav-right'>
 
-                    <li>
-                        <a href="#projects" style={{ textDecoration: 'none' }}>Projects</a>
-                    </li>
+                    <ul className='nav-items'>
+                        <li>
+                            <Link to="/abt" style={{ textDecoration: 'none' }}>About</Link>
+                        </li>
 
-                    <li>
-                        <Link to='Judy_Zhou_CV.pdf' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none' }}> Resume </Link>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+                        <li>
+                            <a href="#projects" style={{ textDecoration: 'none' }}>Projects</a>
+                        </li>
+
+                        <li>
+                            <Link to='Judy_Zhou_CV.pdf' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none' }}> Resume </Link>
+                        </li>
+                    </ul>
+                </div>
+            </nav >
+        </header >
+
     )
 }
 

@@ -1,12 +1,15 @@
 .nav {
+    width: 95%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    right: 5%;
     z-index: 1000;
+    position: fixed;
     backdrop-filter: blur(15px);
     border-radius: 20px;
+}
+
+.icon-container {
+    padding-left: 2%;
 }
 
 .nav-items {
