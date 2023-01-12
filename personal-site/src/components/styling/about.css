@@ -1,0 +1,32 @@
+.container1 {
+    display: flex;
+    padding: 10px;
+}
+
+.about-text {
+    font-size: smaller;
+}
+
+.bffr {
+    font-size: 1.2em;
+    font-weight: 600;
+    font-style: italic;
+    padding: 10px;
+}
+
+.text1 {
+    margin-bottom: 6%;
+    font-weight: 500;
+}
+
+.c2 {
+    display: flex;
+    align-items: center;
+}
+
+.about-section {
+    padding-top: 10%;
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+}

@@ -17,7 +17,6 @@
     display: flex;
     font-size: .7em;
     font-weight: 600;
-    color: #542484;
     text-decoration: none;
 }
 
@@ -26,6 +25,7 @@
 }
 
 .nav-items>li {
+    color: #542484;
     padding: 0px 20px 0px 20px;
 }
 
