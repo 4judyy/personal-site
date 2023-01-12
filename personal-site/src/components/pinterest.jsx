@@ -32,13 +32,13 @@ const styles = {
 
     pin_container: {
         margin: 0,
-        width: '63vw',
+        width: '60vw',
         height: '100 %',
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, 200px)',
+        gridTemplateColumns: 'repeat(auto-fill, 30%)',
         gridAutoRows: '8px',
         overflow: 'none',
-        justifyContent: 'left',
+        justifyContent: 'center',
     }
 
 

@@ -6,29 +6,36 @@ export default function Pin(props) {
             ...styles.pin,
             ...styles[props.size]
         }}>
+            <img className="pinImg" style={{
+                ...styles.pin,
+                ...styles[props.size]
+            }} src={props.img}></img>
 
-
-        </div>
+        </div >
     )
 }
 
 const styles = {
     pin: {
-        margin: '15px 10px',
-        padding: 0,
-        borderRadius: '16px',
-        backgroundColor: 'red',
+        borderRadius: '20px',
+        width: "95%",
+        height: "95%",
+        display: "flex",
+        objectFit: 'cover',
     },
 
     small: {
+        // margin: "10px",
         gridRowEnd: 'span 20'
     },
 
     medium: {
+        // margin: "10px",
         gridRowEnd: 'span 30'
     },
 
     big: {
+        // margin: "10px",
         gridRowEnd: 'span 40'
     }
 }

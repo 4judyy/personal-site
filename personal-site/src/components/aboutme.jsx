@@ -16,8 +16,10 @@ class About extends Component {
                             About me!
                         </div>
                         <div className='container1'>
-                            <div className='pins'>
-                                <Pinterest />
+                            <div className='pin-contain'>
+                                <div className='pins'>
+                                    <Pinterest />
+                                </div>
                             </div>
 
                             <div className='c2'>

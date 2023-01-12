@@ -23,7 +23,7 @@ function AbtHeader() {
                         </li>
 
                         <li>
-                            <Link to='Judy_Zhou_CV.pdf' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none' }}> Resume </Link>
+                            <a href='Judy_Zhou_CV.pdf' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none' }}> Resume </a>
                         </li>
                     </ul>
                 </div>
