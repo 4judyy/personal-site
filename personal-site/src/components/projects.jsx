@@ -20,12 +20,13 @@ export default function Projects() {
 
     return (
         <div className='body'>
-            {/* <div className="head" style={
-                { fontWeight: "bold" }
-            }>Projects</div> */}
-
-            <div className='cards'>
-                {cards}
+            <div>
+                <div className="highlight" style={
+                    { fontWeight: "600", marginBottom: '20px' }
+                }>Projects</div>
+                <div className='cards'>
+                    {cards}
+                </div>
             </div>
         </div>
     );
