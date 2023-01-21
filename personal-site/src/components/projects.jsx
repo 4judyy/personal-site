@@ -2,7 +2,6 @@ import Card from './common/card';
 import './styling/projects.css'
 import { PROJECTS } from './common/projectdata';
 
-
 export default function Projects() {
 
     const cards = PROJECTS.map(project => {
@@ -15,6 +14,7 @@ export default function Projects() {
                 role={project.role}
                 className='card'
             />
+
         )
     })
 
@@ -24,9 +24,11 @@ export default function Projects() {
                 {/* <div className="highlight" style={
                     { fontWeight: "600", marginBottom: '20px' }
                 }>Projects</div> */}
+
                 <div className='cards'>
                     {cards}
                 </div>
+
             </div>
         </div>
     );
