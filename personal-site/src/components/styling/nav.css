@@ -34,6 +34,16 @@
     font-style: italic;
 }
 
+.abt-favi {
+    width: 50%;
+    height: 50%;
+}
+
+.favi {
+    width: 7.5%;
+    height: 70%;
+}
+
 .nav-items>li {
     color: #542484;
     padding: 0px 20px 0px 20px;
