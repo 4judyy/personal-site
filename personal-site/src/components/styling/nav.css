@@ -35,8 +35,8 @@
 }
 
 .abt-favi {
-    width: 50%;
-    height: 50%;
+    width: 7.5%;
+    height: 70%;
 }
 
 .favi {
@@ -64,6 +64,11 @@ html {
     }
 
     .abt-favi {
+        width: 60%;
+        height: 70%;
+    }
+
+    .favi {
         width: 60%;
         height: 70%;
     }
