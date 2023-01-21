@@ -21,9 +21,9 @@ export default function Projects() {
     return (
         <div className='body'>
             <div>
-                <div className="highlight" style={
+                {/* <div className="highlight" style={
                     { fontWeight: "600", marginBottom: '20px' }
-                }>Projects</div>
+                }>Projects</div> */}
                 <div className='cards'>
                     {cards}
                 </div>

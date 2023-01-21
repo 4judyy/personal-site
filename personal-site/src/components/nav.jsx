@@ -7,7 +7,7 @@ function Header() {
         <header>
             <nav className='nav'>
                 <div className="icon-container">
-                    <img alt="favicon" src="favicon.png" style={{ width: '70px' }}></img>
+                    <img alt="favicon" src="favicon.png" className="favi"></img>
                 </div>
                 <div className='nav-right'>
 

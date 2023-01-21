@@ -1,6 +1,6 @@
 .container1 {
     display: flex;
-    padding: 10px;
+    padding: 1vh;
 }
 
 .about-text {
@@ -11,7 +11,7 @@
     font-size: 1.2em;
     font-weight: 600;
     font-style: italic;
-    padding: 10px;
+    padding: 3vh;
 }
 
 .text1 {

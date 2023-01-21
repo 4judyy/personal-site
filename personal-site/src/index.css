@@ -12,3 +12,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media screen and (max-width: 375px) {
+
+  /* comes into effect for screens less than or equal to 320 pixels */
+  body {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 414px) {
+
+  /* comes into effect for screens less than or equal to 320 pixels */
+  body {
+    font-size: 18px;
+  }
+
+  img {
+    width: 20%;
+    height: 20%;
+  }
+
+  .icons {
+    width: 8%;
+    height: 8%;
+  }
+
+
+  .favi {
+    width: 60%;
+    height: 70%;
+  }
+
+
+}

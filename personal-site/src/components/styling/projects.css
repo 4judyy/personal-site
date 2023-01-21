@@ -43,10 +43,10 @@
     border-radius: 10px;
     cursor: pointer;
     display: flex;
-    height: 360px;
+    height: 45vh;
     flex-direction: column;
     position: relative;
-    width: 350px;
+    width: 50vw;
     padding: 3%;
 }
 

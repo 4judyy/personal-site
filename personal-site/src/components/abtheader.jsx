@@ -7,9 +7,9 @@ function AbtHeader() {
     return (
 
         <header>
-            <nav className='nav'>
+            <nav className='abt-nav'>
                 <div className="icon-container">
-                    <img alt="favicon" src="favicon.png" style={{ width: '70px' }}></img>
+                    <img className='abt-favi' alt="favicon" src="favicon.png"></img>
                 </div>
                 <div className='nav-right'>
 

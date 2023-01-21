@@ -8,6 +8,16 @@
     border-radius: 20px;
 }
 
+.abt-nav {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    position: fixed;
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+}
+
 .icon-container {
     padding-left: 2%;
 }
@@ -31,4 +41,20 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 414px) {
+
+    .nav {
+        width: 75%;
+    }
+
+    .abt-nav {
+        width: 100%;
+    }
+
+    .abt-favi {
+        width: 60%;
+        height: 70%;
+    }
 }
