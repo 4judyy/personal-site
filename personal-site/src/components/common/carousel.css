@@ -1,0 +1,25 @@
+.carousel {
+    display: flex;
+    margin: 0 3px;
+    align-items: center;
+}
+
+button {
+    border: none;
+    background: none;
+    padding: none;
+    text-align: center;
+}
+
+.next {
+    width: 10vw;
+    height: 10vh;
+}
+
+polyline {
+    stroke: slategray;
+}
+
+polyline:hover {
+    stroke: steelblue;
+}

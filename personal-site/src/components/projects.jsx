@@ -1,6 +1,7 @@
 import Card from './common/card';
 import './styling/projects.css'
 import { PROJECTS } from './common/projectdata';
+import Carousel from './common/Carousel';
 
 export default function Projects() {
 
@@ -26,7 +27,8 @@ export default function Projects() {
                 }>Projects</div> */}
 
                 <div className='cards'>
-                    {cards}
+
+                    <Carousel items={cards} />
                 </div>
 
             </div>
