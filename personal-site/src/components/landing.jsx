@@ -29,7 +29,7 @@ class Landing extends Component {
     }
 
     componentDidMount() {
-        this.intervalId = setInterval(this.nextImage, 3000);
+        this.intervalId = setInterval(this.nextImage, 2000);
     }
 
     componentWillUnmount() {
