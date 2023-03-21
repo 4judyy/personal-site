@@ -3,7 +3,38 @@ import React, { Component } from 'react';
 import Projects from './projects';
 import Header from './nav';
 
+const judys = [
+    './judys/judy.jpeg',
+    './judys/judy2.jpeg',
+    './judys/judy3.jpeg',
+    './judys/judy4.jpeg',
+    './judys/judy5.jpeg',
+    './judys/judy6.jpeg'
+];
+
 class Landing extends Component {
+
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            currentImageIndex: 0
+        };
+    }
+
+    nextImage = () => {
+        this.setState(state => ({
+            currentImageIndex: (state.currentImageIndex + 1) % judys.length
+        }));
+    }
+
+    componentDidMount() {
+        this.intervalId = setInterval(this.nextImage, 3000);
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.intervalId);
+    }
 
     render() {
         return (
@@ -12,10 +43,10 @@ class Landing extends Component {
                 <div className="container">
                     <div className='text'>
                         <div className='heading'>
-                            <p>Hi! I'm Judy <img alt="Judy Zhou" src='judy.jpeg' width="40px" />,</p>
+                            <p>Hi! I'm Judy <img alt="Judy Zhou" src={judys[this.state.currentImageIndex]} width="50px" />,</p>
                         </div>
                         <div className='title'>
-                            <p>a first year CS student @ <span className="highlight">University of Western</span> with a passion for front-end development!</p>
+                            <p>a first year CS student @ <span className="highlight">University of Western</span> with a passion for full-stack development!</p>
                         </div>
 
                         <div className='description'>

@@ -13,6 +13,7 @@ export default function Projects() {
                 description={project.description}
                 stack={project.stack}
                 role={project.role}
+                link={project.link}
                 className='card'
             />
 
