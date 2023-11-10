@@ -9,7 +9,9 @@ function AbtHeader() {
         <header>
             <nav className='abt-nav'>
                 <div className="icon-container">
-                    <img className='abt-favi' alt="favicon" src="favicon.png"></img>
+                    <a href='https://judyzhou.me/'>
+                        <img alt="favicon" src="favicon.png" className="favi"></img>
+                    </a>
                 </div>
                 <div className='nav-right'>
 
@@ -23,7 +25,7 @@ function AbtHeader() {
                         </li>
 
                         <li>
-                            <a href='Judy_Zhou_CV.pdf' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none' }}> Resume </a>
+                            <a href='Judy_Zhou_Resume.pdf' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none' }}> Resume </a>
                         </li>
                     </ul>
                 </div>

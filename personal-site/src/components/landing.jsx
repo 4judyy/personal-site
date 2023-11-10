@@ -46,7 +46,7 @@ class Landing extends Component {
                             <p>Hi! I'm Judy <img alt="Judy Zhou" src={judys[this.state.currentImageIndex]} width="50px" />,</p>
                         </div>
                         <div className='title'>
-                            <p>a first year CS student @ <span className="highlight">University of Western</span> with a passion for full-stack development!</p>
+                            <p>a second year CS student @ <span className="highlight">University of Western</span> with a passion for full-stack development!</p>
                         </div>
 
                         <div className='description'>

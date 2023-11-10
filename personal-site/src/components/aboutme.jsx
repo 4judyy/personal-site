@@ -25,7 +25,7 @@ class About extends Component {
                             <div className='c2'>
 
                                 <div className='about-text'>
-                                    <div className='text1'>👋 Hi! I'm Judy and I'm a first-year CS student at Western University.</div>
+                                    <div className='text1'>👋 Hi! I'm Judy and I'm a second-year CS student at Western University.</div>
 
                                     <div className='text1'>As a creative, I value expression and artistry. Coding manifests itself as a <span className='highlight'>medium of art</span>, providing a canvas to express my artistic side through creating innovative projects.</div>
 

@@ -7,7 +7,9 @@ function Header() {
         <header>
             <nav className='nav'>
                 <div className="icon-container">
-                    <img alt="favicon" src="favicon.png" className="favi"></img>
+                    <a href='https://judyzhou.me/'>
+                        <img alt="favicon" src="favicon.png" className="favi"></img>
+                    </a>
                 </div>
                 <div className='nav-right'>
 
@@ -21,7 +23,7 @@ function Header() {
                         </li>
 
                         <li>
-                            <Link to='Judy_Zhou_CV.pdf' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none' }}> Resume </Link>
+                            <Link to='Judy_Zhou_Resume.pdf' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none' }}> Resume </Link>
                         </li>
                     </ul>
                 </div>
