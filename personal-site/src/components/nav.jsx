@@ -8,7 +8,7 @@ function Header() {
             <nav className='nav'>
                 <div className="icon-container">
                     <a href='https://judyzhou.me/'>
-                        <img alt="favicon" src="favicon.png" className="favi"></img>
+                        <img alt="favicon" src="favi.png" className="favi"></img>
                     </a>
                 </div>
                 <div className='nav-right'>

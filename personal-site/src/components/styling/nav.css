@@ -5,7 +5,7 @@
     z-index: 1000;
     position: fixed;
     backdrop-filter: blur(15px);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .abt-nav {
@@ -15,7 +15,7 @@
     z-index: 1000;
     position: fixed;
     backdrop-filter: blur(15px);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .icon-container {
@@ -26,22 +26,14 @@
     list-style: none;
     display: flex;
     font-size: .7em;
+    justify-content: space-between;
     font-weight: 600;
     text-decoration: none;
 }
 
 .nav-items>li:hover {
     font-style: italic;
-}
-
-.abt-favi {
-    width: 7.5%;
-    height: 70%;
-}
-
-.favi {
-    width: 7.5%;
-    height: 70%;
+    margin-right: 10px;
 }
 
 .nav-items>li {
@@ -55,6 +47,13 @@ html {
 
 @media screen and (max-width: 414px) {
 
+    /* Remove the 'x' selector */
+    img {
+        border-radius: 0 !important;
+        width: auto !important;
+        height: 7% !important;
+    }
+
     .nav {
         width: 75%;
     }
@@ -63,13 +62,11 @@ html {
         width: 100%;
     }
 
-    .abt-favi {
-        width: 60%;
-        height: 70%;
+    /* Update the selector to match the HTML structure */
+    .icon-container .favi {
+        width: 20px;
+        height: 20px;
+        border-radius: 0;
     }
 
-    .favi {
-        width: 60%;
-        height: 70%;
-    }
 }

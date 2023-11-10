@@ -1,9 +1,9 @@
 export const PHOTOS = [
     {
-        title: "ago",
+        title: "forest",
         size: "small",
-        img: "./cameraroll/art.jpeg",
-        description: "i love art!",
+        img: "./cameraroll/forest.PNG",
+        description: "favourite productivity app!",
     },
     {
         title: "book",
@@ -12,23 +12,10 @@ export const PHOTOS = [
         description: "my to read",
     },
     {
-        title: "create",
-        size: "small",
-        img: "./cameraroll/create.jpeg",
-        description: "create 2022 group photo",
-    },
-
-    {
         title: "csa",
         size: "medium",
         img: "./cameraroll/csa.jpeg",
         description: "team photo for chinese student association (csa) graphics department!",
-    },
-    {
-        title: "food",
-        size: "small",
-        img: "./cameraroll/food.jpeg",
-        description: "love eating tasty food (here is @ bapbo)",
     },
     {
         title: "myself",
@@ -53,12 +40,6 @@ export const PHOTOS = [
         size: "small",
         img: "./cameraroll/sunset.jpeg",
         description: "i love this photo cuz it has adeline in it <3",
-    },
-    {
-        title: "writing",
-        size: "big",
-        img: "./cameraroll/writing.jpeg",
-        description: "interesting writing!",
     },
     {
         title: "judyFloor",
